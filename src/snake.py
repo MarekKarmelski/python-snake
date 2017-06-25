@@ -21,11 +21,3 @@ class Snake:
 
     def add_move(self, move):
         self.moves.append(move)
-#
-#
-# def play_game():
-#     global game
-#     game = True
-#
-# play_btn = Button(root, text='Play', pady=10, command=lambda: play_game())
-# play_btn.grid(column=0, row=2)
