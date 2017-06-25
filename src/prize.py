@@ -56,10 +56,7 @@ class Prize:
         self.current_life_time += 1
 
     def can_remove(self):
-        if self.life_time == self.current_life_time:
-            return True
-        else:
-            return False
+        return self.life_time == self.current_life_time
 
     def remove(self):
         self.game_board_canvas.delete(self.box)
